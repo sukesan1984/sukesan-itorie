@@ -1,43 +1,39 @@
 body {
   background: url("../img/bg.png") repeat;
 }
-#header {
-  color: #FFF;
-  text-align: right;
-  background-color: #BF3E2A;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-#header a {
-  color: #FFF;
-}
-#header ul{
-  display: flex;
-  margin: 0;
-}
-#header ul li {
-  margin: 0 3%;
-}
-#header ul li:first-child {
-  margin-right: auto;
-}
 
-#contents-header {
-  text-align: right;
+#menu {
+  width: 80%;
+  margin: auto;
 }
-#contents-header img {
-  width:20%;
+#menu ul {
+  position: relative;
 }
-#contents-footer {
-  text-align: left;
-  position: fixed;
-  bottom: 0;
+#menu ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;
 }
-#contents-footer img {
-  width:20%;
+#menu li a {
+  text-decoration: none;
 }
-#contents {
+#menu li a {
+  color: #244E5B;
+  font-weight: bold;
+}
+#menu li a:after {
+  content: '';
+  width: 0;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid #000;
+  display: block;
+}
+#menu li a:hover:after {
   width: 100%;
+  border-bottom: 3px solid #000;
+}
+#menu .detail {
+  font-size: 0.8em;
 }
 
 .box1{
@@ -49,19 +45,6 @@ body {
   margin: auto;
 }
 .box1 p {
-  margin: 0; 
-  padding: 0;
-}
-.box4{
-  padding: 8px 19px;
-  color: #2c2c2f;
-  background: #FFF;
-  border-top: solid 5px #BF3E2A;
-  border-bottom: solid 5px #BF3E2A;
-  width: 80%;
-  margin: 10px auto;
-}
-.box4 p {
   margin: 0; 
   padding: 0;
 }

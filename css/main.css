@@ -3,8 +3,21 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
+#header {
+  padding: 8px 19px;
+  color: #2c2c2f;
+  border-top: solid 5px #BF3E2A;
+  border-bottom: solid 5px #BF3E2A;
+  width: 90%;
+  margin: auto;
+}
+#header p {
+  margin: 0; 
+  padding: 0;
+}
+
 #menu {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 #menu ul {
@@ -37,15 +50,35 @@ body {
   font-size: 0.8em;
 }
 
-.box1{
-  padding: 8px 19px;
-  color: #2c2c2f;
-  border-top: solid 5px #BF3E2A;
-  border-bottom: solid 5px #BF3E2A;
-  width: 80%;
+#bgm ul {
+  width: 90%;
+  display: flex;
+  list-style: none;
   margin: auto;
+  border-bottom: solid 1px #BF3E2A;
+  box-sizing: border-box;
 }
-.box1 p {
-  margin: 0; 
-  padding: 0;
+#bgm ul li {
+  padding: 15px 5px;
 }
+#bgm ul li p {
+  font-size: 1em;
+  margin: 0 0 4px 0;
+}
+#bgm ul li p.bgm-scene {
+ font-size: 1.2em;
+ font-weight: bold;
+}
+#bgm ul li p.bgm-memory {
+ font-size: 0.8em;
+}
+/*
+  justify-content: flex-start;
+#bgm li{
+  background: #badcf7;
+  padding: 15px 0;
+  text-align: center;
+}
+*/
+
+

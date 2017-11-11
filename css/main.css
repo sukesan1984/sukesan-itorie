@@ -51,7 +51,7 @@ body {
   display: flex;
   list-style: none;
   margin: auto;
-  border-bottom: solid 1px #BF3E2A;
+  border-bottom: solid 1px #bf3e2a;
   box-sizing: border-box;
 }
 #bgm ul li {
@@ -68,13 +68,25 @@ body {
 #bgm ul li p.bgm-memory {
  font-size: 0.8em;
 }
-/*
-  justify-content: flex-start;
-#bgm li{
-  background: #badcf7;
-  padding: 15px 0;
-  text-align: center;
+
+#kentou ul {
+  width: 90%;
+  list-style: none;
+  margin: auto;
+  border-bottom: solid 1px #bf3e2a;
+  box-sizing: border-box;
 }
-*/
-
-
+#kentou ul li {
+  padding: 15px 5px;
+}
+#kentou ul li p {
+  font-size: 1em;
+  margin: 0 0 4px 0;
+}
+#kentou ul li p.kentou-scene {
+ font-size: 1.2em;
+ font-weight: bold;
+}
+#kentou ul li p.kentou-memory {
+ font-size: 0.8em;
+}

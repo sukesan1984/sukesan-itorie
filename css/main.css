@@ -42,10 +42,6 @@ body {
   border-bottom: 3px solid #000;
   display: block;
 }
-#menu li a:hover:after {
-  width: 100%;
-  border-bottom: 3px solid #000;
-}
 #menu .detail {
   font-size: 0.8em;
 }
